@@ -4,11 +4,20 @@ const ctx = Field.getContext("2d")
 
 
 const picDict={
-    "Fuji":"./image/imgFuji.jpg"
+    "Fuji":"./image/imgFuji.jpg",
+    "takane":"./image/imgTakane.jpg",
+    "SSweet":"./image/imgSSweet.jpg",
+    "SRed":"./image/imgSRed.jpg",
+    "SGold":"./image/imgSGold.jpg",
+    "SDolce":"./image/imgSDolce.jpg",
+    "SPikkoro":"./image/imgSPikkoro.jpg",
+    "SPutti":"./image/imgSPutti.jpg",
+    "SHoppe":"./image/imgSHoppe.jpg",
+    "SLip":"./image/imgSLip.jpg",
 }//画像のパスの辞書
 
 Images=[]
-Apples=[["Fuji",1],["Fuji",4]]
+Apples=[]
 
 function draw(){
     ctx.clearRect(0,0,FieldW,FieldH)
@@ -19,7 +28,7 @@ function draw(){
     })
 
     //if (ShotFrg==1){
-        ctx.drawImage(ShotAppleImg,ShotApple[1][0],ShotApple[1][1],FieldW/10.5,FieldW/10.5)
+    ctx.drawImage(ShotAppleImg,ShotApple[1][0],ShotApple[1][1],FieldW/10.5,FieldW/10.5)
     //}
 }
 
