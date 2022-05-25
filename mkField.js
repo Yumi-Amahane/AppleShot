@@ -1,7 +1,6 @@
 //var FieldW=0
 //var FieldH=0
-var AppleKinds=["Fuji","takane"];
-//,"SSweet","SRed","SGold",
+var AppleKinds=["Fuji","takane","SSweet","SRed","SGold",];
 //"SDolce","SPikkoro","SPutti","SHoppe","SLip"];
 
 (function mkfield(){
