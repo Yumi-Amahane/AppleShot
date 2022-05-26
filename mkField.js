@@ -46,9 +46,7 @@ AppleKinds.map(apple=>{
 })
 ApplePics+="<br>画像、説明文は長野県公式ページ<br>\
 ホーム > 仕事・産業・観光 > 農業 > 試験研究 > 長野県果樹試験場 > 研究成果 > 果樹の品種育成 > りんごの品種育成<br>\
-の一部を引用し、抜粋<br>\
-<br>\
-(c) Yumi-Amahane"
+の一部を引用し、抜粋<br>"
 
 
 ;(function mkfield(){
