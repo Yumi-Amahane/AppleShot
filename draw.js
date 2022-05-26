@@ -2,20 +2,6 @@ const Field=document.getElementById("CField")
 const ctx = Field.getContext("2d")
 
 
-
-const picDict={
-    "Fuji":"./image/imgFuji.jpg",
-    "takane":"./image/imgTakane.jpg",
-    "SSweet":"./image/imgSSweet.jpg",
-    "SRed":"./image/imgSRed.jpg",
-    "SGold":"./image/imgSGold.jpg",
-    "SDolce":"./image/imgSDolce.jpg",
-    "SPikkoro":"./image/imgSPikkoro.jpg",
-    "SPutti":"./image/imgSPutti.jpg",
-    "SHoppe":"./image/imgSHoppe.jpg",
-    "SLip":"./image/imgSLip.jpg",
-}//画像のパスの辞書
-
 Images=[]
 Apples=[]
 
